@@ -1,70 +1,22 @@
 Dental Appointment Reservation Management System
-Introduction
-This application allows users to manage dental appointment reservations, providing features such as adding, modifying, and deleting reservations, tracking their status, and generating statistics.
+Project Overview
+The Dental Appointment Reservation Management System is a user-friendly application designed to facilitate the management of dental appointments. It provides various functionalities to ensure an organized approach to handling reservations, making it beneficial for both dental practitioners and patients.
 
-Features
-The application includes a main menu with the following functionalities:
+Key Features
+Add Reservation: Users can easily add new appointments by inputting necessary details such as the patient's name, phone number, age, appointment status, and reservation date. Each reservation is assigned a unique reference number for easy identification.
 
-Add Reservation:
+Modify or Delete Reservations: The application allows users to modify or delete existing appointments using the unique reference number, ensuring flexibility in managing bookings.
 
-Allows users to add a new reservation by providing the following information:
-First Name
-Last Name
-Phone Number
-Age
-Status (validated, postponed, canceled, processed)
-Unique Reference Number (automatically generated)
-Reservation Date
-Modify or Delete Reservation:
+View Reservation Details: Users can access comprehensive information about each appointment, including the reservation date and status.
 
-Enables users to modify or delete an existing reservation based on the unique reference number.
-Display Reservation Details:
+Sort Reservations: The system supports sorting appointments by name or status, helping users quickly find and organize their reservations.
 
-Users can view complete information about a reservation, including the date and status.
-Sorting Reservations:
+Search Functionality: Users can search for specific appointments by reference number, name, or date, making it easy to locate particular reservations.
 
-Sort reservations by:
-Name
-Status (validated, postponed, canceled, processed)
-Date (optional)
-Search Reservations:
+Statistics Generation: The application can calculate and display statistics, such as the average age of patients and the number of appointments by status, providing insights into patient demographics and appointment trends.
 
-Search for a reservation by:
-Unique Reference Number
-Name
-Date (optional)
-Statistics:
+Default Data
+The system includes 10 default reservations that are automatically inserted upon execution, allowing users to test the application without needing to enter data manually.
 
-Calculate the average age of patients who have made reservations.
-Display the number of patients by age group (e.g., 0-18 years, 19-35 years, 36+ years).
-Generate statistics to know the total number of reservations by status (validated, canceled, etc.).
-Notes:
-The project includes 10 default reservations that are automatically inserted when the program is executed.
-Required Functionalities
-Variables: Used to store reservation information.
-Conditions: Employed to search, modify, and delete reservations.
-Loops: Used to iterate through and display the list of reservations.
-Arrays: To store multiple reservations.
-Strings: To manipulate names, phone numbers, etc.
-Structures: To group information related to a reservation.
-Project Structure
-less
-Copier le code
-.
-├── main.c                // Main application file
-├── reservation.c         // Implementation of reservation functionalities
-├── reservation.h         // Header file defining reservation structure and function prototypes
-└── README.md             // Project documentation
-How to Compile and Run
-To compile the application, use the following command:
-
-bash
-Copier le code
-gcc main.c reservation.c -o reservation_system
-Then, run the application with:
-
-bash
-Copier le code
-./reservation_system
-Conclusion
-This application serves as an efficient tool for managing dental appointments, enhancing organization and accessibility for both patients and dental practitioners. It emphasizes usability and functionality, ensuring a smooth experience for managing reservations.
+Technical Aspects
+The application is developed in C programming language, utilizing arrays, structures, and basic control structures to manage reservation data efficiently. It operates without the use of pointers, making it straightforward for users who are learning programming concepts.
