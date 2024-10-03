@@ -85,7 +85,7 @@ void modifier_reservation() {
         printf("Réservation non trouvée !\n");
     }
 }
-// Fonction bach nsuprimi réservation
+// Fonction bach nsuprimi réservation dental
 void supprimer_reservation() {
     int reference;
     printf("Entrez la référence de la réservation à supprimer: ");
@@ -103,7 +103,7 @@ void supprimer_reservation() {
     }
 }
 
-// Fonction bach n'affichi les détails dyal réservation
+// Fonction bach n'affichi les détails dyal réservation:
 void afficher_reservation() {
     int reference;
     printf("Entrez la référence de la réservation à afficher: ");
