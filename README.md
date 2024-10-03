@@ -1,4 +1,4 @@
-Dental Appointment Reservation Management System
+Dental Appointment Reservation Management System ,
 Project Overview
 The Dental Appointment Reservation Management System is a user-friendly application designed to facilitate the management of dental appointments. It provides various functionalities to ensure an organized approach to handling reservations, making it beneficial for both dental practitioners and patients.
 
