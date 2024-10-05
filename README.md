@@ -14,11 +14,13 @@ Users can access comprehensive information about each appointment, including the
 # Sort Reservations: 
 The system supports sorting appointments by name or status, helping users quickly find and organize their reservations.
 
-Search Functionality: Users can search for specific appointments by reference number, name, or date, making it easy to locate particular reservations.
+# Search Functionality:
+Users can search for specific appointments by reference number, name, or date, making it easy to locate particular reservations.
 
-Statistics Generation: The application can calculate and display statistics, such as the average age of patients and the number of appointments by status, providing insights into patient demographics and appointment trends.
+# Statistics Generation:
+The application can calculate and display statistics, such as the average age of patients and the number of appointments by status, providing insights into patient demographics and appointment trends.
 
-Default Data
+# Default Data
 The system includes 10 default reservations that are automatically inserted upon execution, allowing users to test the application without needing to enter data manually.
 
 # Technical Aspects
