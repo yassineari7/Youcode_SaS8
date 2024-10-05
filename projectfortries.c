@@ -15,7 +15,7 @@ typedef struct
     char date[12];
 } Reservation;
 
-Reservation reservations[100];
+Reservation reservations[55];
 int count = 0; 
 int id = 1; 
 // end declaration

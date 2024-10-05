@@ -71,7 +71,7 @@ void modify_reservation(int reference) {
         printf("Reservation with reference %d not found.\n", reference);  
     }
 }
-
+    
 void delete_reservation(int reference) {
     int found = 0;
     for (int i = 0; i < reservationCount; i++) {
